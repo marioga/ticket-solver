@@ -22,7 +22,8 @@ public class ClassicTicketSolver {
     public static void main(String[] args) {
         TicketSolver ts = new TicketSolver(TICKET_LENGTH);
         try {
-            OutputStream os = new FileOutputStream("tickets"
+            OutputStream os = new FileOutputStream(
+                    "tickets6_100/tickets"
                     + Integer.toString(TICKET_LENGTH) + "_" 
                     + Integer.toString(START) + "_"
                     + Integer.toString(END)

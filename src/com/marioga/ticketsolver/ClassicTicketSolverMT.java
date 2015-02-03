@@ -34,7 +34,8 @@ public class ClassicTicketSolverMT {
     private static void writeToFile(String[] lines) {
         OutputStream os;
         try {
-            os = new FileOutputStream("tickets"
+            os = new FileOutputStream(
+                    "tickets6_100/tickets"
                     + Integer.toString(TICKET_LENGTH) + "_" 
                     + Integer.toString(START) + "_"
                     + Integer.toString(END)
